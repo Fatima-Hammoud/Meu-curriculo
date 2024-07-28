@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Crafty+Girls&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Crafty+Girls&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --color-1: #246EC3;
+    --color-2: #366498;
+    --color-3: #0571ED;
+    --color-4: #39526E;
+    --color-5: #2E3843;
+    --color-6: #2C2F33;
+    --import-font-1: 'Bebas Neue', cursive;
+    --import-font-2: 'Anton', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    
+    background-color: var(--color-1);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: var(--import-font-1);
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px;
+    text-shadow: 30px #2C2F33;
+
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    padding: 10px;    ;
+    line-height: 1.5em;
+    text-shadow: 20px #2C2F33;
+ }
+
+
+header {
+    background-color: var(--color-5);
+    color: white;
+    font-family: var(--import-font-1);
+    padding: 10px;
+    text-align: center;
+    text-shadow: 20px #1315169f;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+nav {
+    display: inline;
+    text-align: justify;
+    margin: auto;
+    padding: 30px 10px 5px 10px;
+    
+    
+}   
+
+nav ul {
+    list-style: none;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+   
+
+    }
+
+    a:hover {
+        color: var(--color-1);
+        text-decoration: underline;
+    }
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: white;
+}
+
+
+main {
+    display:block;
+    background-color: var(--color-1);
+    border: 2px solid var(--color-5);
+    margin: auto;
+    padding: 10px;    
+    color: white;
+    text-align: center;
+    text-shadow: 20px #2C2F33;
+
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+footer {
+    background-color: var(--color-5);
+    color: var(--color-1);
+    padding: 10px;
+    text-align: center;
+}
